@@ -1,0 +1,18 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Product {
+  id: String!
+  name: String!
+  price: Float!
+}
+
+type Query {
+  product: [Product!]!
+  getAllproduct: [Product!]!
+}
+
+type Mutation {
+  findAll: Product!
+}
